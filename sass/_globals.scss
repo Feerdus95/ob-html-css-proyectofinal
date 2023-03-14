@@ -6,6 +6,9 @@
     margin: auto;
     max-width: 992px;
 }
+html{
+    min-width: 100vh;
+}
 
 body {
     padding: 0;
@@ -42,6 +45,11 @@ body {
         .home-description{
             font-weight: bold;
             max-width: 25rem;
+        }
+        .lead-magnet{
+            .input-col{
+                max-width: 200px;
+            }
         }
     }
 }
@@ -148,6 +156,34 @@ body {
         }
         .cta-description{
             font-size: 1.1rem;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .sec-onboarding{
+        .steps{
+            flex-direction: column;
+            .icon-desc{
+                .title{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .sec-footer-cta{
+        background-image: none;
+        .footer-cta{
+            width: 100%;
+            text-align: center;
+        }
+    }
+    .sec-benefits{
+        .intro{
+            text-align: center;
+        }
+        .intro h3{
+            font-size: 2rem;
         }
     }
 }
