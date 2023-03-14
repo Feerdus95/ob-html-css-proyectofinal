@@ -91,3 +91,12 @@ body {
         }
     }
 }
+.sec-benefits{
+    border-top: 1px solid #ccc;
+    .intro{
+        @extend .sec-features, .intro;
+    }
+    .benefit-cards{
+        width: 100%;
+    }
+}
