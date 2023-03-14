@@ -36,7 +36,12 @@ body {
         }
         .home-title{
             width: 20rem;
-            font-size: 3rem;
+            font-size: 3.6rem;
+            font-weight: bold;
+        }
+        .home-description{
+            font-weight: bold;
+            max-width: 25rem;
         }
     }
 }

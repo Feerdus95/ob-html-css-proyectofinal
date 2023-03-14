@@ -136,7 +136,12 @@ body {
 }
 .sec-home .home-cta .home-title {
   width: 20rem;
-  font-size: 3rem;
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+.sec-home .home-cta .home-description {
+  font-weight: bold;
+  max-width: 25rem;
 }
 
 .sec-features {
